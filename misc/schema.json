@@ -1,0 +1,602 @@
+[
+  {
+    "accountnumber": "AUSTRALI0001",
+    "name": "Australia Bike Retailer",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "ALLENSON0001",
+    "name": "Allenson Cycles",
+    "creditrating": 2,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "ADVANCED0001",
+    "name": "Advanced Bicycles",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "TRIKES0001",
+    "name": "Trikes, Inc.",
+    "creditrating": 2,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "MORGANB0001",
+    "name": "Morgan Bike Accessories",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "CYCLING0001",
+    "name": "Cycling Master",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "CHICAGO0002",
+    "name": "Chicago Rent-All",
+    "creditrating": 2,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "GREENWOO0001",
+    "name": "Greenwood Athletic Company",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "COMPETE0001",
+    "name": "Compete Enterprises, Inc",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "INTERNAT0001",
+    "name": "International",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "LIGHTSP0001",
+    "name": "Light Speed",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "TRAINING0001",
+    "name": "Training Systems",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "GARDNER0001",
+    "name": "Gardner Touring Cycles",
+    "creditrating": 1,
+    "preferredvendorstatus": false
+  },
+  {
+    "accountnumber": "INTERNAT0004",
+    "name": "International Trek Center",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "G&KBI0001",
+    "name": "G & K Bicycle Corp.",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "FIRSTNA0001",
+    "name": "First National Sport Co.",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "RECREATI0001",
+    "name": "Recreation Place",
+    "creditrating": 4,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "INTERNAT0002",
+    "name": "International Bicycles",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "IMAGEMA0001",
+    "name": "Image Makers Bike Center",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "COMFORT0001",
+    "name": "Comfort Road Bicycles",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "KNOPFLER0001",
+    "name": "Knopfler Cycles",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "READYRE0001",
+    "name": "Ready Rentals",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "CRUGERB0001",
+    "name": "Cruger Bike Company",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "VISTARO0001",
+    "name": "Vista Road Bikes",
+    "creditrating": 3,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "BERGERON0001",
+    "name": "Bergeron Off-Roads",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "HILLSBI0001",
+    "name": "Hill's Bicycle Service",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "CIRCUIT0001",
+    "name": "Circuit Cycles",
+    "creditrating": 1,
+    "preferredvendorstatus": false
+  },
+  {
+    "accountnumber": "GREENLA0001",
+    "name": "Green Lake Bike Company",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "CONSUMER0001",
+    "name": "Consumer Cycles",
+    "creditrating": 3,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "MERITBI0001",
+    "name": "Merit Bikes",
+    "creditrating": 5,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "SPORTSH0001",
+    "name": "Sports House",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "WESTAMER0001",
+    "name": "WestAmerica Bicycle Co.",
+    "creditrating": 1,
+    "preferredvendorstatus": false
+  },
+  {
+    "accountnumber": "WESTJUN0001",
+    "name": "West Junction Cycles",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "MARSH0001",
+    "name": "Marsh",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "CAPITAL0001",
+    "name": "Capital Road Cycles",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "NORSTAN0001",
+    "name": "Norstan Bike Hut",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "ILLINOIS0001",
+    "name": "Illinois Trek & Clothing",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "BURNETT0001",
+    "name": "Burnett Road Warriors",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "CUSTOMF0001",
+    "name": "Custom Frames, Inc.",
+    "creditrating": 2,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "FIRSTRA0001",
+    "name": "First Rate Bicycles",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "NATIONAL0001",
+    "name": "National Bike Association",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "JEFFSSP0001",
+    "name": "Jeff's Sporting Goods",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "SUPERIOR0001",
+    "name": "Superior Bicycles",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "VISIONC0001",
+    "name": "Vision Cycles, Inc.",
+    "creditrating": 1,
+    "preferredvendorstatus": false
+  },
+  {
+    "accountnumber": "LITWARE0001",
+    "name": "Litware, Inc.",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "INNERCI0001",
+    "name": "Inner City Bikes",
+    "creditrating": 3,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "TREYRE0001",
+    "name": "Trey Research",
+    "creditrating": 3,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "MITCHELL0001",
+    "name": "Mitchell Sports",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "SIGNATUR0001",
+    "name": "Signature Cycles",
+    "creditrating": 2,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "SUPERSAL0001",
+    "name": "SUPERSALES INC.",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "LINDELL0001",
+    "name": "Lindell",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "FITNESS0001",
+    "name": "Fitness Association",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "ADATUM0001",
+    "name": "A. Datum Corporation",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "CONTINEN0001",
+    "name": "Continental Pro Cycles",
+    "creditrating": 3,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "FEDERAL0001",
+    "name": "Federal Sport",
+    "creditrating": 3,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "BEAUMONT0001",
+    "name": "Beaumont Bikes",
+    "creditrating": 1,
+    "preferredvendorstatus": false
+  },
+  {
+    "accountnumber": "BIKESAT0001",
+    "name": "Bike Satellite Inc.",
+    "creditrating": 1,
+    "preferredvendorstatus": false
+  },
+  {
+    "accountnumber": "NORTHW0001",
+    "name": "Northwind Traders",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "SPORTPL0001",
+    "name": "Sport Playground",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "HYBRIDB0001",
+    "name": "Hybrid Bicycle Center",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "MIDWEST0001",
+    "name": "Midwest Sport, Inc.",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "RELIANCE0001",
+    "name": "Reliance Fitness, Inc.",
+    "creditrating": 2,
+    "preferredvendorstatus": false
+  },
+  {
+    "accountnumber": "AURORAB0001",
+    "name": "Aurora Bike Center",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "METROSP0001",
+    "name": "Metro Sport Equipment",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "LAKEWOOD0001",
+    "name": "Lakewood Bicycle",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "SPEEDCO0001",
+    "name": "Speed Corporation",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "COMPETIT0001",
+    "name": "Competition Bike Training Systems",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "HILLBIC0001",
+    "name": "Hill Bicycle Center",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "BICYCLE0001",
+    "name": "Bicycle Specialists",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "INDIANA0001",
+    "name": "Indiana Bicycle Center",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "SPORTFA0001",
+    "name": "Sport Fan Co.",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "GMASKI0001",
+    "name": "GMA Ski & Bike",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "INTEGRAT0001",
+    "name": "Integrated Sport Products",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "INLINEA0001",
+    "name": "Inline Accessories",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "LEGENDC0001",
+    "name": "Legend Cycles",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "ELECTRON0001",
+    "name": "Electronic Bike Co.",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "INTERNAT0003",
+    "name": "International Sport Assoc.",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "ELECTRON0002",
+    "name": "Electronic Bike Repair & Supplies",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "WIDEWOR0001",
+    "name": "Wide World Importers",
+    "creditrating": 2,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "AMERICAN0001",
+    "name": "American Bicycles and Wheels",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "VICTORY0001",
+    "name": "Victory Bikes",
+    "creditrating": 5,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "AMERICAN0002",
+    "name": "American Bikes",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "MOUNTAIN0001",
+    "name": "Mountain Works",
+    "creditrating": 1,
+    "preferredvendorstatus": false
+  },
+  {
+    "accountnumber": "CROWLEY0001",
+    "name": "Crowley Sport",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "MAGICCY0001",
+    "name": "Magic Cycles",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "NORTHERN0001",
+    "name": "Northern Bike Travel",
+    "creditrating": 3,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "ANDERSON0001",
+    "name": "Anderson's Custom Bikes",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "LEAFRIV0001",
+    "name": "Leaf River Terrain",
+    "creditrating": 1,
+    "preferredvendorstatus": false
+  },
+  {
+    "accountnumber": "TOURING0001",
+    "name": "Touring Equipment Center",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "HOLIDAY0001",
+    "name": "Holiday Skate & Cycle",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "EXPERTB0001",
+    "name": "Expert Bike Co",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "VARSITY0001",
+    "name": "Varsity Sport Co.",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "TEAMATH0001",
+    "name": "Team Athletic Co.",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "PROSE0001",
+    "name": "Proseware, Inc.",
+    "creditrating": 4,
+    "preferredvendorstatus": false
+  },
+  {
+    "accountnumber": "JACKSON0001",
+    "name": "Jackson Authority",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "PREMIER0001",
+    "name": "Premier Sport, Inc.",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "PROFESSI0001",
+    "name": "Professional Athletic Consultants",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "PROSPOR0001",
+    "name": "Pro Sport Industries",
+    "creditrating": 1,
+    "preferredvendorstatus": false
+  },
+  {
+    "accountnumber": "WOODFIT0001",
+    "name": "Wood Fitness",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  },
+  {
+    "accountnumber": "BLOOMING0001",
+    "name": "Bloomington Multisport",
+    "creditrating": 1,
+    "preferredvendorstatus": true
+  }
+]
