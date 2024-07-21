@@ -24,14 +24,15 @@ const SearchForm = ({ onSearch }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '10px', width: '300px' }}>
       <input 
         type="text" 
         value={query} 
         onChange={(e) => setQuery(e.target.value)} 
         placeholder="Enter search term" 
+        style={{ padding: '8px', fontSize: '16px' }}
       />
-      <button type="submit">Search</button>
+      <button type="submit" style={{ padding: '8px', fontSize: '16px' }}>Search</button>
       {loading && <p>Loading...</p>}
     </form>
   );
