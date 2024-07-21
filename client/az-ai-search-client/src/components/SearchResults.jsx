@@ -6,7 +6,7 @@ const SearchResults = ({ results }) => {
       <ul>
         {results.map((result, index) => (
           <li key={index}>
-            {result.score} - {result.document.accountnumber}: {result.document.name}
+            SCORE: {result.score} - {result.document.accountnumber}: {result.document.name}
           </li>
         ))}
       </ul>

@@ -1,5 +1,5 @@
 import express from 'express';
-import { SearchIndexClient, AzureKeyCredential } from '@azure/search-documents';
+import { SearchClient, AzureKeyCredential } from '@azure/search-documents';
 import cors from 'cors';
 import dotenv from 'dotenv';
 
@@ -14,12 +14,12 @@ const indexName = process.env.SEARCH_INDEX || "";
 app.use(cors());
 app.use(express.json());
 
+// Initialize Azure Search client
+const searchClient = new SearchClient(endpoint, indexName, new AzureKeyCredential(apiKey));
+
 app.post('/search', async (req, res) => {
   const searchQuery = req.body.q || '*';
   const skip = req.body.skip || 0;
-
-  const indexClient = new SearchIndexClient(endpoint, new AzureKeyCredential(apiKey));
-  const searchClient = indexClient.getSearchClient(indexName);
 
   try {
     const searchOptions = {
@@ -36,7 +36,22 @@ app.post('/search', async (req, res) => {
     }
     res.json(results);
   } catch (error) {
-    res.status(500).send(error.toString());
+    console.error('Error searching:', error);
+    res.status(500).send({ error: 'Failed to search' });
+  }
+});
+
+app.post('/upsert', async (req, res) => {
+  try {
+    const document = req.body;
+
+    // Upsert the document
+    await searchClient.mergeOrUploadDocuments([document]);
+
+    res.status(200).send({ message: 'Document upserted successfully' });
+  } catch (error) {
+    console.error('Error upserting document:', error);
+    res.status(500).send({ error: 'Failed to upsert document' });
   }
 });
 
