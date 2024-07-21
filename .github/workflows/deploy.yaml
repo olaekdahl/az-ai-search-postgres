@@ -22,13 +22,13 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build . -t azcrdemo01.azurecr.io/myapp:latest
-          docker push azcrdemo01.azurecr.io/myapp:latest
+          docker build . -t azcrdemo01.azurecr.io/myapp:${{ github.sha }}
+          docker push azcrdemo01.azurecr.io/myapp:${{ github.sha }}
 
       - name: Azure Web App Deployment
         uses: azure/webapps-deploy@v2
         with:
           app-name: az-cog
           slot-name: production
-          images: azcrdemo01.azurecr.io/myapp:latest
+          images: azcrdemo01.azurecr.io/myapp:${{ github.sha }}
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
