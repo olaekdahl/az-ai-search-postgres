@@ -2,6 +2,9 @@ import express from 'express';
 import { SearchClient, AzureKeyCredential } from '@azure/search-documents';
 import cors from 'cors';
 import dotenv from 'dotenv';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
 
 dotenv.config();
 
@@ -11,8 +14,12 @@ const endpoint = process.env.SEARCH_API_ENDPOINT || "";
 const apiKey = process.env.SEARCH_API_KEY || "";
 const indexName = process.env.SEARCH_INDEX || "";
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 app.use(cors());
 app.use(express.json());
+app.use(express.static(path.join(__dirname, 'dist')));
 
 // Initialize Azure Search client
 const searchClient = new SearchClient(endpoint, indexName, new AzureKeyCredential(apiKey));
@@ -53,6 +60,10 @@ app.post('/upsert', async (req, res) => {
     console.error('Error upserting document:', error);
     res.status(500).send({ error: 'Failed to upsert document' });
   }
+});
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
 app.listen(PORT, () => {
