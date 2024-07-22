@@ -19,7 +19,7 @@ const UpsertForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch(`${import.meta.env.VITE_SEARCH_API}/upsert`, {
+      const response = await fetch(`${import.meta.env.VITE_SEARCH_API}:8080/upsert`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
