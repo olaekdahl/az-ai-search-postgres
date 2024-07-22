@@ -30,7 +30,8 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: azcrdemo01.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_2f91687f12794ad7b4c9586f78adbb0c }}/myapp:${{ github.sha }} --build-arg VITE_SEARCH_API=${{ secrets.VITE_SEARCH_API }}
+        build-args: VITE_SEARCH_API=${{ secrets.VITE_SEARCH_API }}
+        tags: azcrdemo01.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_2f91687f12794ad7b4c9586f78adbb0c }}/myapp:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
