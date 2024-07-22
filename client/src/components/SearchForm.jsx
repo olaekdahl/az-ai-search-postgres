@@ -8,7 +8,7 @@ const SearchForm = ({ onSearch }) => {
     e.preventDefault();
     setLoading(true);
     try {
-      const response = await fetch(`/search`, {
+      const response = await fetch(`${import.meta.env.VITE_SEARCH_API}/search`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

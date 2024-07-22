@@ -26,6 +26,10 @@ COPY --from=build /app/client/dist ./dist
 # Copy server files
 COPY server .
 
+# Set environment variable for API URL
+ARG VITE_SEARCH_API
+ENV VITE_SEARCH_API=${VITE_SEARCH_API}
+
 # Expose the port and start the server
 EXPOSE 3000 80 443
 CMD ["node", "server.js"]
